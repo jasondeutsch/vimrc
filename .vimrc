@@ -27,7 +27,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " They have a plan...
-execute pathogen#infect()
+execute pathogen#infect('~/my_vimrc/bundle/{}')
 
 
 """""""""""""""""""""""""""""""
